@@ -9,6 +9,10 @@ import android.os.Parcelable;
 
 public class TripModel implements Parcelable {
 
+    public TripModel() {
+
+    }
+
     private String departure;
     private String destination;
     private String date;
